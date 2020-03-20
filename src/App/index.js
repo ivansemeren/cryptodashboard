@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
-import styled, {css} from 'styled-components';
+// import styled, {css} from 'styled-components';
+import WelcomeMessege from './WelcomeMessage';
+import AppLayout from './AppLayout';
 
 
 class App extends Component {
   render(){
     return (
-      <div>
-        {/* <Welcome name={"Crypto Dash"}/> */}
-     </div>
+      <AppLayout>
+        <WelcomeMessege/>
+     </AppLayout>
     );
   }
 }
