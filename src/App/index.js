@@ -4,13 +4,16 @@ import './App.css';
 import WelcomeMessege from './WelcomeMessage';
 import AppLayout from './AppLayout';
 import AppBar from './AppBar';
+import {AppProvider} from './AppProvider'
 
 class App extends Component {
   render(){
     return (
       <AppLayout>
-        <AppBar></AppBar>
-        <WelcomeMessege/>
+        <AppProvider>
+          <AppBar></AppBar>
+          <WelcomeMessege/>
+        </AppProvider>
      </AppLayout>
     );
   }
