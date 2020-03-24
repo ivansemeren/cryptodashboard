@@ -3,11 +3,11 @@ import styled, {css} from 'styled-components';
 import { AppContext } from './AppProvider';
 
 const Logo = styled.div`
-    font-size: 1.5em;
+    font-size: 1.2em;
 `
 const Bar = styled.div`
     display: grid;
-    grid-template-columns: 300px auto 300px 300px;
+    grid-template-columns: auto auto auto auto; 
 `
 const ControlButtonElem = styled.div`
     cursor: pointer;

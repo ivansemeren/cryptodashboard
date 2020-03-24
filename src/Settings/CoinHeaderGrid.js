@@ -5,7 +5,7 @@ import {DeletableTile} from "../Shared/Tile";
 export const CoinHeaderGridStyled = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-size: 30px;
+    font-size: 16px;
 `
 
 export const CoinSymbol = styled.div`
