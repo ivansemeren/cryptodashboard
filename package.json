@@ -12,6 +12,7 @@
     "lodash": "^4.17.15",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-highcharts": "^16.1.0",
     "react-scripts": "3.4.0",
     "styled-components": "4.0.2"
   },
