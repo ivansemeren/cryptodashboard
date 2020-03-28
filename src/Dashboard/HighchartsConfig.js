@@ -1,4 +1,4 @@
-export default function(){
+export default function(historical){
     return {
         title: {
             text: 'Coin Price Histogram'
@@ -11,6 +11,7 @@ export default function(){
         },
     
         xAxis: {
+            type: 'datetime',
             accessibility: {
                 rangeDescription: 'Range: 2010 to 2017'
             }
@@ -31,13 +32,7 @@ export default function(){
             }
         },
     
-        series: [{
-            name: 'Installation',
-            data: [43934, 52503, 57177, 69658, 97031, 119931, 137133, 154175]
-        }, {
-            name: 'Manufacturing',
-            data: [24916, 24064, 29742, 29851, 32490, 30282, 38121, 40434]
-        }],
+        series: historical,
     
         responsive: {
             rules: [{
